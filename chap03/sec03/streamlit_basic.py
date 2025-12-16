@@ -13,7 +13,7 @@ with st.sidebar:
     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
-st.title("💬 Chatbot")
+st.title("세영")
 
 # (1) st.session_state에 "messages"가 없으면 초기값을 설정
 if "messages" not in st.session_state:
