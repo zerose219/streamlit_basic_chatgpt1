@@ -53,5 +53,17 @@ if page=="Chat":
     
 
 elif page =="About":
-    st.title("About 화면")
-    st.write("말차")
+    st.set_page_config(page_title="세영 챗봇", page_icon="💬", layout="wide")
+
+    st.title("세영 💬")
+    st.caption("Streamlit + OpenAI 챗봇")
+
+    with st.container(border=True):
+        left, right = st.columns([2, 1])
+        with left:
+            st.subheader("대화")
+            st.write("여기에 chat UI가 들어갑니다.")
+        with right:
+            st.subheader("설정")
+            st.toggle("대화 저장", value=True)
+            st.selectbox("모델", ["gpt-4o", "gpt-4o-mini"])
