@@ -53,7 +53,7 @@ if page=="Chat":
     
 
 elif page =="About":
-    st.set_page_config(page_title="세영 챗봇", page_icon="💬", layout="wide")
+    # st.set_page_config(page_title="세영 챗봇", page_icon="💬", layout="wide")
 
     st.title("세영 💬")
     st.caption("Streamlit + OpenAI 챗봇")
