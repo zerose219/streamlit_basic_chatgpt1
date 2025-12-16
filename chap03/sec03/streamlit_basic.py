@@ -26,7 +26,7 @@ if page=="Chat":
             st.session_state.messages = [
                 {"role": "assistant", "content": "How can I help you?"}
             ]
-            
+
     # (1) st.session_state에 "messages"가 없으면 초기값을 설정
     if "messages" not in st.session_state:
         st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
@@ -53,4 +53,4 @@ if page=="Chat":
 
 elif page =="About":
     st.title("About 화면")
-    st.write("")
+    st.write("말차말차")
